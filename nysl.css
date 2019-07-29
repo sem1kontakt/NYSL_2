@@ -1,0 +1,141 @@
+@font-face{
+  font-family:"FontAwesome";
+  src:url('../fonts/awesome/fontawesome.eot');
+  src:url('../fonts/awesome/fontawesome.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/awesome/fontawesome.woff') format('woff'),    url('../fonts/awesome/fontawesome.ttf') format('truetype'),
+          url('../fonts/awesome/fontawesome.svg#fontawesomeregular') format('svg');
+  font-weight:normal;font-style:normal;}.flag:before,.mobile:before{font-family:"FontAwesome";font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;-webkit-font-smoothing: antialiased;display: inline-block; text-decoration: inherit;}.flag:before{content:"\f024";}.mobile:before{content:"\f10b";}
+
+
+
+body{
+background: url(./img2/Tatiana.jpg) no-repeat center center fixed;
+background-size: cover;
+display: flex;
+justify-content: flex-start
+
+
+}
+
+
+
+.dws-menu *{
+  margin: 0;
+  padding: 0;
+ }
+
+ header{
+  display: flex;
+  justify-content: flex-start;
+  margin: 200px;
+
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+ }  
+
+.dws-menu ul,  
+.dws-menu ol{
+list-style: none;
+}    
+
+.dws-menu > ul{
+  display: flex;
+  justify-content: center;
+ }    
+
+ header , a{
+  margin-left: 140px;
+  font-family: Cuprum, Arial, Helvetica, sans-serif;
+ }    
+ a {
+  display: block;
+  padding: 15px 30px 15px 40px;
+  font-size: 100px;
+  color: #c8e4af;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform:uppercase;
+ }    
+ .dws-menu > ul li a {
+  display: block;
+  padding: 15px 30px 15px 40px;
+  font-size: 70px;
+  color: #c8e4af;
+  text-decoration: none;
+  text-transform:uppercase;
+ }    
+ .dws-menu > ul li{
+  position: relative;
+ }   
+
+ .dws-menu > ul li > a i.fa{
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  font-size: 70px;
+ }   
+
+
+ .dws-menu > ul {
+  border-left: 7px solid  #c8e4af;
+ }
+ 
+  
+  
+
+ .dws-menu > ul li{
+  position: relative;
+  
+ }   
+
+ .dws-menu li a:hover{
+ 
+ 
+
+  transition: all 0.7s ease;
+ }    
+
+ .dws-menu > ul li a{
+  display: block;
+  padding: 15px 30px 15px 40px;
+  font-size: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform:uppercase;
+  transition: all 0.7s ease;
+ }    
+
+ /*sub menu*/
+.dws-menu li ul{
+  position: absolute;
+  min-width: 250px;
+ }    
+
+
+ .dws-menu li > ul li a{
+  padding: 10px;
+  text-transform: none;
+ 
+ }    
+
+ .dws-menu li > ul li ul{
+  position: absolute;
+ 
+  top: 0;
+ }    
+
+ .dws-menu li ul{
+  position: absolute;
+  min-width: 350px;
+  display: none;
+ }    
+
+ .dws-menu li:hover > ul{
+  display: block;
+ }    
+tr{
+  color:  #c8e4af;!important 
+}
+
+li:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.letter {
+  color: red;
+  font-size: 200%;
+  font-family: Luminari, fantasy;
+  position: relative;
+  top: 5px;
+}
+
+
+
+h1, h2, h3, h4{
+text-align: center;
+}
+
+nav{
+  display: flex;
+  height: 40px;
+  justify-content: space-around;
+  background-color: rgb(87, 141, 118);
+}
+
+
+a, li, p, .box {
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+p {
+  text-align: center;
+  background-color:rgb(87, 141, 118);
+  height: 50px;
+  vertical-align:top;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  }
+.logo {
+
+width:  150px;
+height: 152px;
+position: absolute;
+padding-top: 164px;
+padding-left: 30px;
+
+
+
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(204, 231, 219);
+}
+
+
+.box
+{
+  
+  width: 45%;
+}
+
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+
+li {
+  
+  margin: 0 10px;
+}
+
